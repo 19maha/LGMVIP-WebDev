@@ -1,0 +1,57 @@
+body{
+  background-color:rgb(92, 235, 211);
+}
+.Nav{
+  background-color:rgb(233, 23, 152);
+  padding:8px 18px;
+  display: flex;
+}
+.Nav h1{
+  color:white;
+}
+#btn{
+  margin-left:945px;
+  color: rgb(240, 29, 75);
+  border: 2px solid black;
+  margin-top:15px;
+  padding: 15px 26px;
+  text-align: center;
+  background-color: rgb(247, 246, 221);
+  transition: transform .2s;
+  border-radius: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  float: right;
+}
+#btn:hover{
+  transform: scale(1.2);
+}
+#text{
+  text-align: center;
+}
+.grid{
+  margin:4rem 3rem 3rem;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(3,1fr);
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 80%;
+  background-color: rgb(241, 171, 171);
+  color: black;
+  padding: 20px 20px;
+}
+.card:hover {
+  background-color: blueviolet;
+}
+.image{
+  padding:20px;
+}
+.info{
+  padding:10px;
+  text-align: left;
+  font-size:14px;
+  font-weight: bold;
+}
